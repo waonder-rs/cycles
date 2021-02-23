@@ -1,0 +1,13 @@
+[package]
+name = "cycles"
+version = "0.1.0"
+authors = ["Timothée Haudebourg <timothee.haudebourg@hemisemi.fr>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+parking_lot = "*"
+once_cell = "*"
+crossbeam-channel = "*"
+crossbeam-queue = "^0.3"
